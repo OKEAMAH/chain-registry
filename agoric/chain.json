@@ -81,6 +81,11 @@
         "id": "6ab5521047ae8e7bb0273a90029a6d445eb1a0a1",
         "address": "seed-agoric-01.stakeflow.io:2206",
         "provider": "Stakeflow"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
       }
     ],
     "persistent_peers": [
@@ -157,7 +162,7 @@
       {
         "address": "https://rpc.agoric.bronbro.io:443",
         "provider": "Bro_n_Bro"
-      } 
+      }
     ],
     "rest": [
       {
@@ -192,6 +197,10 @@
         "provider": "w3coins"
       },
       {
+        "address": "https://agoric.api.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "address": "https://api.agoric.stakewith.us",
         "provider": "StakeWithUs"
       },
@@ -206,7 +215,7 @@
       {
         "address": "https://lcd.agoric.bronbro.io:443",
         "provider": "Bro_n_Bro"
-      }   
+      }
     ],
     "grpc": [
       {
@@ -252,16 +261,10 @@
       {
         "address": "https://grpc.agoric.bronbro.io:443",
         "provider": "Bro_n_Bro"
-      }   
+      }
     ]
   },
   "explorers": [
-    {
-      "kind": "bigdipper",
-      "url": "https://agoric.bigdipper.live/",
-      "tx_page": "https://agoric.bigdipper.live/transactions/${txHash}",
-      "account_page": "https://agoric.bigdipper.live/accounts/${accountAddress}"
-    },
     {
       "kind": "explorers.guru",
       "url": "https://agoric.explorers.guru",
@@ -278,6 +281,12 @@
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/agoric",
       "account_page": "https://stakeflow.io/agoric/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Agoric",
+      "tx_page": "https://explorer.stavr.tech/Agoric/tx/${txHash}",
+      "account_page": "https://explorer.stavr.tech/Agoric/account/${accountAddress}"
     }
   ],
   "images": [
