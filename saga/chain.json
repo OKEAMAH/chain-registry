@@ -107,6 +107,14 @@
       {
         "address": "https://saga.rpc.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://rpc.saga.goldenratiostaking.net",
+        "provider": "Golden Ratio Staking"
+      },
+      {
+        "address": "https://rpc.saga.bronbro.io:443",
+        "provider": "Bro_n_Bro"
       }
     ],
     "rest": [
@@ -119,12 +127,20 @@
         "provider": "Allnodes ⚡️ Nodes & Staking"
       },
       {
+        "address": "https://rest.saga.goldenratiostaking.net",
+        "provider": "Golden Ratio Staking"
+      },
+      {
         "address": "https://api.saga.nodestake.org",
         "provider": "NodeStake"
       },
       {
         "address": "https://saga.api.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://lcd.saga.bronbro.io:443",
+        "provider": "Bro_n_Bro"
       }
     ],
     "grpc": [
@@ -143,6 +159,10 @@
       {
         "address": "saga.grpc.kjnodes.com:443",
         "provider": "kjnodes"
+      },
+      {
+        "address": "grpc.saga.bronbro.io:443",
+        "provider": "Bro_n_Bro" 
       }
     ]
   },
